@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet6" targetNamespace="http://tempuri.org/DataSet6.xsd" xmlns:mstns="http://tempuri.org/DataSet6.xsd" xmlns="http://tempuri.org/DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet6" msprop:Generator_UserDSName="DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_RowClassName="DataTable2Row" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="BUGNA" msprop:Generator_ColumnVarNameInTable="columnBUGNA" msprop:Generator_ColumnPropNameInRow="BUGNA" msprop:Generator_ColumnPropNameInTable="BUGNAColumn" msprop:Generator_UserColumnName="BUGNA" type="xs:string" minOccurs="0" />
+              <xs:element name="第一群" msprop:Generator_ColumnVarNameInTable="column第一群" msprop:Generator_ColumnPropNameInRow="第一群" msprop:Generator_ColumnPropNameInTable="第一群Column" msprop:Generator_UserColumnName="第一群" type="xs:double" minOccurs="0" />
+              <xs:element name="第二群" msprop:Generator_ColumnVarNameInTable="column第二群" msprop:Generator_ColumnPropNameInRow="第二群" msprop:Generator_ColumnPropNameInTable="第二群Column" msprop:Generator_UserColumnName="第二群" type="xs:double" minOccurs="0" />
+              <xs:element name="第三群" msprop:Generator_ColumnVarNameInTable="column第三群" msprop:Generator_ColumnPropNameInRow="第三群" msprop:Generator_ColumnPropNameInTable="第三群Column" msprop:Generator_UserColumnName="第三群" type="xs:double" minOccurs="0" />
+              <xs:element name="第四群" msprop:Generator_ColumnVarNameInTable="column第四群" msprop:Generator_ColumnPropNameInRow="第四群" msprop:Generator_ColumnPropNameInTable="第四群Column" msprop:Generator_UserColumnName="第四群" type="xs:double" minOccurs="0" />
+              <xs:element name="第五群" msprop:Generator_ColumnVarNameInTable="column第五群" msprop:Generator_ColumnPropNameInRow="第五群" msprop:Generator_ColumnPropNameInTable="第五群Column" msprop:Generator_UserColumnName="第五群" type="xs:double" minOccurs="0" />
+              <xs:element name="群組合計" msprop:Generator_ColumnVarNameInTable="column群組合計" msprop:Generator_ColumnPropNameInRow="群組合計" msprop:Generator_ColumnPropNameInTable="群組合計Column" msprop:Generator_UserColumnName="群組合計" type="xs:double" minOccurs="0" />
+              <xs:element name="非群組" msprop:Generator_ColumnVarNameInTable="column非群組" msprop:Generator_ColumnPropNameInRow="非群組" msprop:Generator_ColumnPropNameInTable="非群組Column" msprop:Generator_UserColumnName="非群組" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+              <xs:element name="NUM" msprop:Generator_ColumnVarNameInTable="columnNUM" msprop:Generator_ColumnPropNameInRow="NUM" msprop:Generator_ColumnPropNameInTable="NUMColumn" msprop:Generator_UserColumnName="NUM" type="xs:double" minOccurs="0" />
+              <xs:element name="上月合計" msprop:Generator_ColumnVarNameInTable="column上月合計" msprop:Generator_ColumnPropNameInRow="上月合計" msprop:Generator_ColumnPropNameInTable="上月合計Column" msprop:Generator_UserColumnName="上月合計" type="xs:double" minOccurs="0" />
+              <xs:element name="小計" msprop:Generator_ColumnVarNameInTable="column小計" msprop:Generator_ColumnPropNameInRow="小計" msprop:Generator_ColumnPropNameInTable="小計Column" msprop:Generator_UserColumnName="小計" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="BUGNA" msprop:Generator_ColumnVarNameInTable="columnBUGNA" msprop:Generator_ColumnPropNameInRow="BUGNA" msprop:Generator_ColumnPropNameInTable="BUGNAColumn" msprop:Generator_UserColumnName="BUGNA" type="xs:string" minOccurs="0" />
+              <xs:element name="第一群" msprop:Generator_ColumnVarNameInTable="column第一群" msprop:Generator_ColumnPropNameInRow="第一群" msprop:Generator_ColumnPropNameInTable="第一群Column" msprop:Generator_UserColumnName="第一群" type="xs:double" minOccurs="0" />
+              <xs:element name="第二群" msprop:Generator_ColumnVarNameInTable="column第二群" msprop:Generator_ColumnPropNameInRow="第二群" msprop:Generator_ColumnPropNameInTable="第二群Column" msprop:Generator_UserColumnName="第二群" type="xs:double" minOccurs="0" />
+              <xs:element name="第三群" msprop:Generator_ColumnVarNameInTable="column第三群" msprop:Generator_ColumnPropNameInRow="第三群" msprop:Generator_ColumnPropNameInTable="第三群Column" msprop:Generator_UserColumnName="第三群" type="xs:double" minOccurs="0" />
+              <xs:element name="第四群" msprop:Generator_ColumnVarNameInTable="column第四群" msprop:Generator_ColumnPropNameInRow="第四群" msprop:Generator_ColumnPropNameInTable="第四群Column" msprop:Generator_UserColumnName="第四群" type="xs:double" minOccurs="0" />
+              <xs:element name="第五群" msprop:Generator_ColumnVarNameInTable="column第五群" msprop:Generator_ColumnPropNameInRow="第五群" msprop:Generator_ColumnPropNameInTable="第五群Column" msprop:Generator_UserColumnName="第五群" type="xs:double" minOccurs="0" />
+              <xs:element name="群組合計" msprop:Generator_ColumnVarNameInTable="column群組合計" msprop:Generator_ColumnPropNameInRow="群組合計" msprop:Generator_ColumnPropNameInTable="群組合計Column" msprop:Generator_UserColumnName="群組合計" type="xs:double" minOccurs="0" />
+              <xs:element name="非群組" msprop:Generator_ColumnVarNameInTable="column非群組" msprop:Generator_ColumnPropNameInRow="非群組" msprop:Generator_ColumnPropNameInTable="非群組Column" msprop:Generator_UserColumnName="非群組" type="xs:double" minOccurs="0" />
+              <xs:element name="NUM" msprop:Generator_ColumnVarNameInTable="columnNUM" msprop:Generator_ColumnPropNameInRow="NUM" msprop:Generator_ColumnPropNameInTable="NUMColumn" msprop:Generator_UserColumnName="NUM" type="xs:double" minOccurs="0" />
+              <xs:element name="小計" msprop:Generator_ColumnVarNameInTable="column小計" msprop:Generator_ColumnPropNameInRow="小計" msprop:Generator_ColumnPropNameInTable="小計Column" msprop:Generator_UserColumnName="小計" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable3" msprop:Generator_TableClassName="DataTable3DataTable" msprop:Generator_TableVarName="tableDataTable3" msprop:Generator_TablePropName="DataTable3" msprop:Generator_RowDeletingName="DataTable3RowDeleting" msprop:Generator_RowChangingName="DataTable3RowChanging" msprop:Generator_RowEvHandlerName="DataTable3RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable3RowDeleted" msprop:Generator_UserTableName="DataTable3" msprop:Generator_RowChangedName="DataTable3RowChanged" msprop:Generator_RowEvArgName="DataTable3RowChangeEvent" msprop:Generator_RowClassName="DataTable3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="BUGNA" msprop:Generator_ColumnVarNameInTable="columnBUGNA" msprop:Generator_ColumnPropNameInRow="BUGNA" msprop:Generator_ColumnPropNameInTable="BUGNAColumn" msprop:Generator_UserColumnName="BUGNA" type="xs:string" minOccurs="0" />
+              <xs:element name="GP1" msdata:Caption="第一群" msprop:Generator_ColumnVarNameInTable="columnGP1" msprop:Generator_ColumnPropNameInRow="GP1" msprop:Generator_ColumnPropNameInTable="GP1Column" msprop:Generator_UserColumnName="GP1" type="xs:double" minOccurs="0" />
+              <xs:element name="GP2" msdata:Caption="第二群" msprop:Generator_ColumnVarNameInTable="columnGP2" msprop:Generator_ColumnPropNameInRow="GP2" msprop:Generator_ColumnPropNameInTable="GP2Column" msprop:Generator_UserColumnName="GP2" type="xs:double" minOccurs="0" />
+              <xs:element name="GP3" msdata:Caption="第三群" msprop:Generator_ColumnVarNameInTable="columnGP3" msprop:Generator_ColumnPropNameInRow="GP3" msprop:Generator_ColumnPropNameInTable="GP3Column" msprop:Generator_UserColumnName="GP3" type="xs:double" minOccurs="0" />
+              <xs:element name="GP4" msdata:Caption="第四群" msprop:Generator_ColumnVarNameInTable="columnGP4" msprop:Generator_ColumnPropNameInRow="GP4" msprop:Generator_ColumnPropNameInTable="GP4Column" msprop:Generator_UserColumnName="GP4" type="xs:double" minOccurs="0" />
+              <xs:element name="GP5" msdata:Caption="第五群" msprop:Generator_ColumnVarNameInTable="columnGP5" msprop:Generator_ColumnPropNameInRow="GP5" msprop:Generator_ColumnPropNameInTable="GP5Column" msprop:Generator_UserColumnName="GP5" type="xs:double" minOccurs="0" />
+              <xs:element name="合計" msdata:Caption="群組合計" msprop:Generator_ColumnVarNameInTable="column合計" msprop:Generator_ColumnPropNameInRow="合計" msprop:Generator_ColumnPropNameInTable="合計Column" msprop:Generator_UserColumnName="合計" type="xs:double" minOccurs="0" />
+              <xs:element name="NUM" msprop:Generator_ColumnVarNameInTable="columnNUM" msprop:Generator_ColumnPropNameInRow="NUM" msprop:Generator_ColumnPropNameInTable="NUMColumn" msprop:Generator_UserColumnName="NUM" type="xs:double" minOccurs="0" />
+              <xs:element name="小計" msprop:Generator_ColumnVarNameInTable="column小計" msprop:Generator_ColumnPropNameInRow="小計" msprop:Generator_ColumnPropNameInTable="小計Column" msprop:Generator_UserColumnName="小計" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable4" msprop:Generator_TableClassName="DataTable4DataTable" msprop:Generator_TableVarName="tableDataTable4" msprop:Generator_TablePropName="DataTable4" msprop:Generator_RowDeletingName="DataTable4RowDeleting" msprop:Generator_RowChangingName="DataTable4RowChanging" msprop:Generator_RowEvHandlerName="DataTable4RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable4RowDeleted" msprop:Generator_UserTableName="DataTable4" msprop:Generator_RowChangedName="DataTable4RowChanged" msprop:Generator_RowEvArgName="DataTable4RowChangeEvent" msprop:Generator_RowClassName="DataTable4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="BUGNA" msprop:Generator_ColumnVarNameInTable="columnBUGNA" msprop:Generator_ColumnPropNameInRow="BUGNA" msprop:Generator_ColumnPropNameInTable="BUGNAColumn" msprop:Generator_UserColumnName="BUGNA" type="xs:string" minOccurs="0" />
+              <xs:element name="GP1" msdata:Caption="第一群" msprop:Generator_ColumnVarNameInTable="columnGP1" msprop:Generator_ColumnPropNameInRow="GP1" msprop:Generator_ColumnPropNameInTable="GP1Column" msprop:Generator_UserColumnName="GP1" type="xs:double" minOccurs="0" />
+              <xs:element name="GP2" msdata:Caption="第二群" msprop:Generator_ColumnVarNameInTable="columnGP2" msprop:Generator_ColumnPropNameInRow="GP2" msprop:Generator_ColumnPropNameInTable="GP2Column" msprop:Generator_UserColumnName="GP2" type="xs:double" minOccurs="0" />
+              <xs:element name="GP3" msdata:Caption="第三群" msprop:Generator_ColumnVarNameInTable="columnGP3" msprop:Generator_ColumnPropNameInRow="GP3" msprop:Generator_ColumnPropNameInTable="GP3Column" msprop:Generator_UserColumnName="GP3" type="xs:double" minOccurs="0" />
+              <xs:element name="GP4" msdata:Caption="第四群" msprop:Generator_ColumnVarNameInTable="columnGP4" msprop:Generator_ColumnPropNameInRow="GP4" msprop:Generator_ColumnPropNameInTable="GP4Column" msprop:Generator_UserColumnName="GP4" type="xs:double" minOccurs="0" />
+              <xs:element name="GP5" msdata:Caption="第五群" msprop:Generator_ColumnVarNameInTable="columnGP5" msprop:Generator_ColumnPropNameInRow="GP5" msprop:Generator_ColumnPropNameInTable="GP5Column" msprop:Generator_UserColumnName="GP5" type="xs:double" minOccurs="0" />
+              <xs:element name="GP6" msdata:Caption="第六群" msprop:Generator_ColumnVarNameInTable="columnGP6" msprop:Generator_ColumnPropNameInRow="GP6" msprop:Generator_ColumnPropNameInTable="GP6Column" msprop:Generator_UserColumnName="GP6" type="xs:double" minOccurs="0" />
+              <xs:element name="合計" msdata:Caption="群組合計" msprop:Generator_ColumnVarNameInTable="column合計" msprop:Generator_ColumnPropNameInRow="合計" msprop:Generator_ColumnPropNameInTable="合計Column" msprop:Generator_UserColumnName="合計" type="xs:double" minOccurs="0" />
+              <xs:element name="科目群" msprop:Generator_ColumnVarNameInTable="column科目群" msprop:Generator_ColumnPropNameInRow="科目群" msprop:Generator_ColumnPropNameInTable="科目群Column" msprop:Generator_UserColumnName="科目群" type="xs:string" minOccurs="0" />
+              <xs:element name="符號" msprop:Generator_ColumnVarNameInTable="column符號" msprop:Generator_ColumnPropNameInRow="符號" msprop:Generator_ColumnPropNameInTable="符號Column" msprop:Generator_UserColumnName="符號" type="xs:string" minOccurs="0" />
+              <xs:element name="NUM" msprop:Generator_ColumnVarNameInTable="columnNUM" msprop:Generator_ColumnPropNameInRow="NUM" msprop:Generator_ColumnPropNameInTable="NUMColumn" msprop:Generator_UserColumnName="NUM" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable5" msprop:Generator_TableClassName="DataTable5DataTable" msprop:Generator_TableVarName="tableDataTable5" msprop:Generator_RowChangedName="DataTable5RowChanged" msprop:Generator_TablePropName="DataTable5" msprop:Generator_RowDeletingName="DataTable5RowDeleting" msprop:Generator_RowChangingName="DataTable5RowChanging" msprop:Generator_RowEvHandlerName="DataTable5RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable5RowDeleted" msprop:Generator_RowClassName="DataTable5Row" msprop:Generator_UserTableName="DataTable5" msprop:Generator_RowEvArgName="DataTable5RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="群組合計1" msprop:Generator_ColumnVarNameInTable="column群組合計1" msprop:Generator_ColumnPropNameInRow="群組合計1" msprop:Generator_ColumnPropNameInTable="群組合計1Column" msprop:Generator_UserColumnName="群組合計1" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

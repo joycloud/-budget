@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet11" targetNamespace="http://tempuri.org/DataSet11.xsd" xmlns:mstns="http://tempuri.org/DataSet11.xsd" xmlns="http://tempuri.org/DataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet11" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet11" msprop:Generator_UserDSName="DataSet11">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="品類" msprop:Generator_ColumnVarNameInTable="column品類" msprop:Generator_ColumnPropNameInRow="品類" msprop:Generator_ColumnPropNameInTable="品類Column" msprop:Generator_UserColumnName="品類" type="xs:int" minOccurs="0" />
+              <xs:element name="品名" msprop:Generator_ColumnVarNameInTable="column品名" msprop:Generator_ColumnPropNameInRow="品名" msprop:Generator_ColumnPropNameInTable="品名Column" msprop:Generator_UserColumnName="品名" type="xs:int" minOccurs="0" />
+              <xs:element name="BUGNO" msprop:Generator_ColumnVarNameInTable="columnBUGNO" msprop:Generator_ColumnPropNameInRow="BUGNO" msprop:Generator_ColumnPropNameInTable="BUGNOColumn" msprop:Generator_UserColumnName="BUGNO" type="xs:string" minOccurs="0" />
+              <xs:element name="FTNA" msprop:Generator_ColumnVarNameInTable="columnFTNA" msprop:Generator_ColumnPropNameInRow="FTNA" msprop:Generator_ColumnPropNameInTable="FTNAColumn" msprop:Generator_UserColumnName="FTNA" type="xs:string" minOccurs="0" />
+              <xs:element name="FMNA" msprop:Generator_ColumnVarNameInTable="columnFMNA" msprop:Generator_ColumnPropNameInRow="FMNA" msprop:Generator_ColumnPropNameInTable="FMNAColumn" msprop:Generator_UserColumnName="FMNA" type="xs:string" minOccurs="0" />
+              <xs:element name="INCDS" msprop:Generator_ColumnVarNameInTable="columnINCDS" msprop:Generator_ColumnPropNameInRow="INCDS" msprop:Generator_ColumnPropNameInTable="INCDSColumn" msprop:Generator_UserColumnName="INCDS" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPTNAME" msprop:Generator_ColumnVarNameInTable="columnDEPTNAME" msprop:Generator_ColumnPropNameInRow="DEPTNAME" msprop:Generator_ColumnPropNameInTable="DEPTNAMEColumn" msprop:Generator_UserColumnName="DEPTNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INVQY1" msprop:Generator_ColumnVarNameInTable="columnINVQY1" msprop:Generator_ColumnPropNameInRow="INVQY1" msprop:Generator_ColumnPropNameInTable="INVQY1Column" msprop:Generator_UserColumnName="INVQY1" type="xs:double" minOccurs="0" />
+              <xs:element name="INVUNT" msprop:Generator_ColumnVarNameInTable="columnINVUNT" msprop:Generator_ColumnPropNameInRow="INVUNT" msprop:Generator_ColumnPropNameInTable="INVUNTColumn" msprop:Generator_UserColumnName="INVUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="INVAMT" msprop:Generator_ColumnVarNameInTable="columnINVAMT" msprop:Generator_ColumnPropNameInRow="INVAMT" msprop:Generator_ColumnPropNameInTable="INVAMTColumn" msprop:Generator_UserColumnName="INVAMT" type="xs:double" minOccurs="0" />
+              <xs:element name="BUGNA" msprop:Generator_ColumnVarNameInTable="columnBUGNA" msprop:Generator_ColumnPropNameInRow="BUGNA" msprop:Generator_ColumnPropNameInTable="BUGNAColumn" msprop:Generator_UserColumnName="BUGNA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

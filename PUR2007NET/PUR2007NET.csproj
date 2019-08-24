@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B7C091A-D207-47B1-B494-25F13282BDF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PUR2007NET</RootNamespace>
+    <AssemblyName>PUR2007NET</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CosMoComponent, Version=1.0.6753.30853, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\GON\EXE\CosMoComponent.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="GonGinCommonForm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\GON\EXE\GonGinCommonForm.dll</HintPath>
+    </Reference>
+    <Reference Include="GonGinLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\GON\EXE\GonGinLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A3報表_NEW\A3明細總表_NEW.cs">
+      <DependentUpon>A3明細總表_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項00_NEW.cs">
+      <DependentUpon>A3組別細項00_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項01_NEW.cs">
+      <DependentUpon>A3組別細項01_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項02_NEW.cs">
+      <DependentUpon>A3組別細項02_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項03_NEW.cs">
+      <DependentUpon>A3組別細項03_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項04_NEW.cs">
+      <DependentUpon>A3組別細項04_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="A3報表_NEW\A3組別細項05_NEW.cs">
+      <DependentUpon>A3組別細項05_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet6.cs">
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="實際使用報表_季.cs">
+      <DependentUpon>實際使用報表_季.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BUGDA_修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BUGDA_修改.Designer.cs">
+      <DependentUpon>BUGDA_修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet7.cs">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Excel匯入視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel匯入視窗.Designer.cs">
+      <DependentUpon>Excel匯入視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PUR2007F.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUR2007F.Designer.cs">
+      <DependentUpon>PUR2007F.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="列印總表判斷.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="列印總表判斷.Designer.cs">
+      <DependentUpon>列印總表判斷.cs</DependentUpon>
+    </Compile>
+    <Compile Include="品項明細.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="品項明細.Designer.cs">
+      <DependentUpon>品項明細.cs</DependentUpon>
+    </Compile>
+    <Compile Include="品項查詢.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="品項查詢.Designer.cs">
+      <DependentUpon>品項查詢.cs</DependentUpon>
+    </Compile>
+    <Compile Include="品項檢視.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="品項檢視.Designer.cs">
+      <DependentUpon>品項檢視.cs</DependentUpon>
+    </Compile>
+    <Compile Include="品類報表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>品類報表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="品類總表_科目.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>品類總表_科目.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\實際使用報表01.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>實際使用報表01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\實際申請表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>實際申請表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\月份群_季.cs">
+      <DependentUpon>月份群_季.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="實際報表\總經理排序.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>總經理排序.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\預算實際申請表02.cs">
+      <DependentUpon>預算實際申請表02.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="實際報表\預算實際申請表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>預算實際申請表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\預算比較.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>預算比較.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="實際報表\預算申請表NEW.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>預算申請表NEW.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="控管視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="控管視窗.Designer.cs">
+      <DependentUpon>控管視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="燃料費視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="燃料費視窗.Designer.cs">
+      <DependentUpon>燃料費視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="特別科目.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="特別科目.Designer.cs">
+      <DependentUpon>特別科目.cs</DependentUpon>
+    </Compile>
+    <Compile Include="特別自訂品項.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="特別自訂品項.Designer.cs">
+      <DependentUpon>特別自訂品項.cs</DependentUpon>
+    </Compile>
+    <Compile Include="特別預算視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="特別預算視窗.Designer.cs">
+      <DependentUpon>特別預算視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="申請資料判斷.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="申請資料判斷.Designer.cs">
+      <DependentUpon>申請資料判斷.cs</DependentUpon>
+    </Compile>
+    <Compile Include="群組_品類總表.cs">
+      <DependentUpon>群組_品類總表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="實際使用報表.cs">
+      <DependentUpon>實際使用報表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組_總表NEW2.cs">
+      <DependentUpon>群組_總表NEW2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組_總表NEW1.cs">
+      <DependentUpon>群組_總表NEW1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組_總表無科目.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>群組_總表無科目.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="群組列印視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="群組列印視窗.Designer.cs">
+      <DependentUpon>群組列印視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="群組_品類部門.cs">
+      <DependentUpon>群組_品類部門.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組_總表.cs">
+      <DependentUpon>群組_總表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組總表_明細.cs">
+      <DependentUpon>群組總表_明細.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="費用查詢.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="費用查詢.Designer.cs">
+      <DependentUpon>費用查詢.cs</DependentUpon>
+    </Compile>
+    <Compile Include="費用查詢報表\費用查詢01.cs">
+      <DependentUpon>費用查詢01.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="資產視窗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="資產視窗.Designer.cs">
+      <DependentUpon>資產視窗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="追加總表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>追加總表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="追加總表列印.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="追加總表列印.Designer.cs">
+      <DependentUpon>追加總表列印.cs</DependentUpon>
+    </Compile>
+    <Compile Include="選擇部門.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="選擇部門.Designer.cs">
+      <DependentUpon>選擇部門.cs</DependentUpon>
+    </Compile>
+    <Compile Include="群組總表.cs">
+      <DependentUpon>群組總表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="部門報表_NEW.cs">
+      <DependentUpon>部門報表_NEW.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="部門報表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>部門報表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="部門選項.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="部門選項.Designer.cs">
+      <DependentUpon>部門選項.cs</DependentUpon>
+    </Compile>
+    <Compile Include="特別預算總表.cs">
+      <DependentUpon>特別預算總表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="群組_大群總表.cs">
+      <DependentUpon>群組_大群總表.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="預算申請表.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>預算申請表.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="預算簽核申請.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="預算簽核申請.Designer.cs">
+      <DependentUpon>預算簽核申請.cs</DependentUpon>
+    </Compile>
+    <Compile Include="預算總表_間接.cs">
+      <DependentUpon>預算總表_間接.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="預算總表_直接.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>預算總表_直接.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="A3報表_NEW\A3明細總表_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3明細總表_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項00_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項00_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項01_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項01_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項02_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項02_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項03_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項03_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項04_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項04_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3報表_NEW\A3組別細項05_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>A3組別細項05_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際使用報表_季.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>實際使用報表_季.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BUGDA_修改.resx">
+      <DependentUpon>BUGDA_修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel匯入視窗.resx">
+      <DependentUpon>Excel匯入視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PUR2007F.resx">
+      <DependentUpon>PUR2007F.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="列印總表判斷.resx">
+      <DependentUpon>列印總表判斷.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="品項明細.resx">
+      <DependentUpon>品項明細.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="品項查詢.resx">
+      <DependentUpon>品項查詢.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="品項檢視.resx">
+      <DependentUpon>品項檢視.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="品類報表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>品類報表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="品類總表_科目.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>品類總表_科目.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\實際使用報表01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>實際使用報表01.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\實際申請表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>實際申請表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\月份群_季.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>月份群_季.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\總經理排序.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>總經理排序.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\預算實際申請表02.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算實際申請表02.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\預算實際申請表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算實際申請表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\預算比較.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算比較.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際報表\預算申請表NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算申請表NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="控管視窗.resx">
+      <DependentUpon>控管視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="燃料費視窗.resx">
+      <DependentUpon>燃料費視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="特別科目.resx">
+      <DependentUpon>特別科目.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="特別自訂品項.resx">
+      <DependentUpon>特別自訂品項.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="特別預算視窗.resx">
+      <DependentUpon>特別預算視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="申請資料判斷.resx">
+      <DependentUpon>申請資料判斷.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_品類總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_品類總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="實際使用報表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>實際使用報表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_總表NEW2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_總表NEW2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_總表NEW1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_總表NEW1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_總表無科目.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_總表無科目.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組列印視窗.resx">
+      <DependentUpon>群組列印視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_品類部門.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_品類部門.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組總表_明細.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組總表_明細.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="費用查詢.resx">
+      <DependentUpon>費用查詢.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="費用查詢報表\費用查詢01.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>費用查詢01.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="資產視窗.resx">
+      <DependentUpon>資產視窗.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="追加總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>追加總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="追加總表列印.resx">
+      <DependentUpon>追加總表列印.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="選擇部門.resx">
+      <DependentUpon>選擇部門.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="部門報表_NEW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>部門報表_NEW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="部門報表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>部門報表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="部門選項.resx">
+      <DependentUpon>部門選項.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="特別預算總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>特別預算總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="群組_大群總表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>群組_大群總表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="預算申請表.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算申請表.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="預算簽核申請.resx">
+      <DependentUpon>預算簽核申請.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="預算總表_間接.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算總表_間接.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="預算總表_直接.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>預算總表_直接.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet10.xsc">
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet10.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet10.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet10.xss">
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet11.xsc">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet11.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet11.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet11.xss">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet5.xsc">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet5.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet5.xss">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet6.xsc">
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet6.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet6.xss">
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet7.xsc">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet7.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet7.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet7.xss">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet8.xsc">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet8.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet8.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet8.xss">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsc">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet9.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet9.xss">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
